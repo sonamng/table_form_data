@@ -1,0 +1,89 @@
+
+  body{
+    background-color: rgb(230, 235, 236);
+
+  }
+  .Table{
+    margin-left: 0%;
+     border-collapse: collapse
+  }
+
+  .input{
+    height: 3rem;
+    width: 30rem;
+    font-size: larger;
+    border-radius: 5px;
+    margin-left: 40rem;
+    margin-top: 2rem;
+    position:static;
+  }
+
+  .state ,.date, .recovered, .totalTestResults{
+    width: 16rem;
+    height: 2rem;
+    font-size: larger;
+    margin-top: 20rem; 
+    position:static;
+  }
+  .Heading{
+    margin-left: 37%;  
+  }
+
+  
+  .one ,.two ,.three, .four{
+  width: 16rem;
+  height: 1rem;
+  margin-top: 20rem;
+  font-size: 2rem;
+  color: white;
+  background-color: gray;
+  position:static;
+  }
+
+
+  .boder{
+  margin-left: 25rem;
+  position: relative;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  }
+
+@media(max-width: 600px){
+      body{
+        background-color: rgb(235, 233, 233);
+
+      }
+    .Heading {
+      margin-left: 16%;
+    }
+
+    .input {
+      height: 3rem;
+      width: 22rem;
+      font-size: larger;
+      border-radius: 3px;
+      margin-left: 1rem;
+      margin-top: 2rem;
+      position: relative;
+  }
+  .boder {
+    margin-left: 0rem;
+    position: relative;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+  .one, .two, .three, .four {
+  width: 16em;
+  height: 2rem;
+  margin-top: 20rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: gray;
+  margin-left: 33px;
+  }
+  .Table {
+  margin-left: 0%;
+  }
+
+}
